@@ -1,39 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--link with favicon-->
+    <!--link with style.css-->
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resourses/images/favicon-32x32.png">
+    <!--add Epilogue font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Intro section with dropdown navigation </title>
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <img src="./resourses/images/logo.svg" alt="logo" style="max-width:100%; max-height: 50%;" >
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="https://www.frontendmentor.io/profile/Iman-mohammad">Featuers <img src="./resourses/images/icon-arrow-down.svg" alt="arrow-down" class="arrow"> <img src="./resourses/images/icon-arrow-up.svg" alt="arrow-down" class="arrow-above"> </a></li>
+          <li><a href="https://www.frontendmentor.io/profile/Iman-mohammad">Company </a><img src="./resourses/images/icon-arrow-down.svg" alt="arrow-down" class="arrow"> <img src="./resourses/images/icon-arrow-up.svg" alt="arrow-down" class="arrow-above"></li>
+          <li><a href="https://www.frontendmentor.io/profile/Iman-mohammad">Careers</a> </li>
+          <li><a href="https://www.frontendmentor.io/profile/Iman-mohammad">About</a> </li>
+        </ul>
+      </nav>
+      <div class="login-regestration">
+        <button class="login" onclick="">Login</button>
+        <button class="register" onclick="">Register</button>
+      </div>
+    </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <main>
+      <section>
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline Processes, create team rituals, and watch productivity soar.</p>
+        <button class="learn-more">Learn more</button>
+        <figure class="brand">
+          <img src="./resourses/images/client-databiz.svg" alt="client-databiz">
+          <img src="./resourses/images/client-audiophile.svg" alt="client-audiophile">
+          <img src="./resourses/images/client-meet.svg" alt="client-meet">
+          <img src="./resourses/images/client-maker.svg" alt="client-maker">
+        </figure>
+      </section>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+      <figure>
+        <img src="./resourses/images/image-hero-desktop.png" >
+      </figure>
+    </main>
 
-  Features
-  Company
-  Careers
-  About
 
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!--challenged by : Iman Mohammad -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Iman-mohammad">Iman Mohammad</a>.
+    </div>
+  </body>
 </html>
